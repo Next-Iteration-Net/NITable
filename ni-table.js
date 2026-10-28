@@ -4,7 +4,6 @@ class NITable extends HTMLElement {
     if (document.getElementById("ni-table-styles")) {
       return;
     }
-
     const style = document.createElement("style");
     style.id = "ni-table-styles";
     style.textContent = `
